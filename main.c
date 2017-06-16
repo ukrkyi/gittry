@@ -1,8 +1,16 @@
 #include <stdio.h>
 
+void a(void)
+{
+	printf("a\r\n");
+}
+
 int main(void)
 {
 	printf("Hello, World!\r\n");
+
+	a();
+
 	return 0;
 }
 
