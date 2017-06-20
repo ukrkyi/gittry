@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void a(void)
+void A(void)
 {
 	printf("a\r\n");
 }
@@ -9,7 +9,7 @@ int main(void)
 {
 	printf("Hello, World!\r\n");
 
-	a();
+	A();
 
 	return 0;
 }
